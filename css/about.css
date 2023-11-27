@@ -1,0 +1,254 @@
+/*
+Author: Desmond Timperley
+styles.css
+*/
+
+/* CSS Reset*/
+body, header, nav, main, footer, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #666666;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*style rules for boxing sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*style rules for mobile viewport */
+
+nav {
+    background-color: #5e5037 ;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 1%;
+}
+
+
+nav li a:hover {
+    color: #000000;
+    background-color: #ce711aaf;
+    border-radius: 15px;
+}
+
+#logo img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    padding-left: .75em;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding-left: 0%;
+}
+
+nav li {
+
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 2px solid #303030;
+    
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #303030;
+    padding-right: .2em;
+    padding-left: .2em;
+    padding-top: .5em;
+    text-decoration: none;
+
+
+}
+
+/*Show mobile class, hide tablet-desktop class */
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+header {
+    display: none;
+}
+
+
+main {
+    padding: 4%;
+    display: block;
+    font-family: 'Tilt Neon', sans-serif;
+    border-radius: 25px;
+}
+
+.action {
+    font-weight: bold;
+
+}
+
+#about {
+    clear: left;
+    padding: 2% 2%;
+    font-size: 20px;
+    background-color: #525252;
+    border-radius: 25px;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#special {
+    display: block;
+    text-decoration: none;
+}
+
+
+#special ul {
+    font-size: 20px;
+    background-color: #525252;
+    border-radius: 25px;
+    padding-bottom: 5em;
+}
+
+#special img {
+    width: 125px;
+    display: inline;
+    padding-top: .75em;
+    padding-bottom: .75em;
+}
+
+#sale h1 {
+    text-align: center;
+}
+
+#special h6 {
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+#sale {
+    text-align: center;
+}
+
+#sale h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: #525252;
+    border-radius: 25px;
+}
+
+#sale h2 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #525252;
+    border-radius: 25px;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+#sale p {
+    font-size: 20px;
+}
+
+#sale ul {
+    display: inline-block;
+    text-align: left;   
+    font-size: 20px;
+
+}
+
+#sale img {
+    border-radius: 20%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+footer {
+    text-align: center;
+    font-size: .85em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer a {
+    color:blue;
+    text-decoration: none;
+}
+
+
+/* media query for tablet viewport */
+@media screen and (min-width:630px), print {
+    
+    .tablet-desktop {
+        display: block;
+    }
+    
+    .mobile {
+        display: none;
+    }
+
+    nav li {
+        display: inline-block;
+        border-top: none;
+        border-right: 2px solid #303030;
+    }
+    
+
+
+}
+
+
+
+/* media query for desktop viewport */
+@media screen and (min-width:1015px), print {
+
+
+
+    .tablet-desktop {
+        display: block;
+
+    }
+
+    nav li {
+        display: inline-block;
+    }
+    
+
+}
