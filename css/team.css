@@ -211,6 +211,19 @@ article img {
 
 }
 
+#story h1  {
+    text-align: center;
+    text-decoration: underline #303030;
+} 
+
+
+
+article img {
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #303030;
+}
+
+
 
 footer {
     text-align: center;
@@ -251,6 +264,17 @@ footer a {
         box-shadow: 10px 10px 5px #303030;
     }
 
+    #story h1  {
+        text-align: center;
+        text-decoration: underline #303030;
+    }
+
+    article img {
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #303030;
+    }
+
+
 
 
 
@@ -275,6 +299,11 @@ footer a {
     #story h1  {
         text-align: center;
         text-decoration: underline #303030;
+    }
+
+    article img {
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px #303030;
     }
 
 
