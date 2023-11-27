@@ -240,6 +240,10 @@ footer a {
 @media screen and (min-width:1015px), print {
 
 
+    header {
+        text-align: center;
+    }
+
 
     .tablet-desktop {
         display: block;
@@ -250,5 +254,10 @@ footer a {
         display: inline-block;
     }
     
+
+    #steam img {
+        border-radius: 15px;
+
+    }
 
 }

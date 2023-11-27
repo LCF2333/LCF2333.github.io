@@ -272,7 +272,12 @@ footer a {
         display: inline-block;
     }
 
+    #story h1  {
+        text-align: center;
+        text-decoration: underline #303030;
+    }
 
-    
+
+
 
 }
