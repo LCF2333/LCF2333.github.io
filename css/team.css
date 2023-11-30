@@ -301,10 +301,28 @@ footer a {
         text-decoration: underline #303030;
     }
 
+    article h4 {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+
+    article:nth-child(odd) {
+        clear: left;
+        padding: 2% 2%;
+        font-size: 20px;
+        background-color: #525252;
+        border-radius: 25px;
+
+    }
+
     article img {
         border-radius: 15px;
         box-shadow: 10px 10px 5px #303030;
     }
+
+    
 
 
 

@@ -87,6 +87,13 @@ nav li a {
 
 }
 
+nav img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+
 /*Show mobile class, hide tablet-desktop class */
 
 .mobile {
@@ -212,6 +219,21 @@ footer a {
     text-decoration: none;
 }
 
+.frame {
+    position: relative;
+    max-width: 300px;
+    margin: 4% auto;
+}
+
+.picture-text {
+    position: absolute;
+    bottom: 0;
+    background: #303030;
+    color: #5e5037;
+    width: 100%;
+    font-weight: bold;
+}
+
 
 /* media query for tablet viewport */
 @media screen and (min-width:630px), print {
@@ -228,6 +250,15 @@ footer a {
         display: inline-block;
         border-top: none;
         border-right: 2px solid #303030;
+    }
+
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        box-shadow: 10px 10px 5px #303030;
     }
     
 
@@ -253,11 +284,37 @@ footer a {
     nav li {
         display: inline-block;
     }
+
+    nav img {
+        float: left;
+        width: 7%;
+        position: relative;
+        top: -20px;
+        right: -30px;
+        
+    }
     
 
     #steam img {
         border-radius: 15px;
 
     }
+
+    .frame {
+        opacity: .8;
+
+    }
+
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 10px 10px 5px #303030;
+    }
+
+    .picture-text {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    
 
 }
