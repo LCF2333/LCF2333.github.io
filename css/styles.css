@@ -35,25 +35,19 @@ nav {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-bottom: 1%;
+    float: right;
+    width: 100%;
+    box-shadow: 0 0 10px #303030;
 }
 
 
 nav li a:hover {
     color: #000000;
     background-color: #ce711aaf;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
-#logo img {
-    border-radius: 50%;
-    width: 100px;
-    height: auto;
-    padding-top: .75em;
-    padding-bottom: .75em;
-    padding-left: .75em;
 
-
-}
 
 nav ul {
     list-style-type: none;
@@ -66,7 +60,7 @@ nav li {
 
     margin: 0 auto;
     padding: 5px;
-    font-size: 2em;
+    font-size: 1.50em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-top: 2px solid #303030;
     
@@ -92,6 +86,18 @@ nav img {
     width: 25%;
     height: 25%;
     margin: 0 auto;
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+form button {
+    color: #5e5037;
+}
+
+p {
+    text-align: center;
 }
 
 /*Show mobile class, hide tablet-desktop class */
@@ -127,10 +133,16 @@ main {
     font-size: 20px;
     background-color: #525252;
     border-radius: 25px;
+    box-shadow: 5px 5px 10px;
 }
 
 #about h1 {
     text-align: center;
+}
+
+#steam {
+    box-shadow: 5px 5px 10px;
+    border-radius: 25px;
 }
 
 #special {
@@ -158,7 +170,7 @@ main {
 }
 
 #special h6 {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: -10px;
 }
 
@@ -234,6 +246,105 @@ footer a {
     font-weight: bold;
 }
 
+legend {
+    max-width: 60%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid rgb(31, 22, 8);
+}
+
+label {
+    display: block;
+    padding-top: 4%;
+}
+
+
+
+input {
+    margin-left: 1px;
+    margin-top: 0.75px;
+    
+
+}
+
+
+form {
+    box-shadow: 0 0 10px #303030;
+    background-color:#5e5037;
+    margin: 0 auto;
+    
+}
+
+form img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 20%;
+    
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2px;
+    width: 90%;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2%;
+
+}
+
+th {
+    background-color: #303030;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #525252;
+}
+
+table th {
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+
+video {
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#media_link {
+    text-align: center;
+}
+
+
+
 
 /* media query for tablet viewport */
 @media screen and (min-width:630px), print {
@@ -250,6 +361,14 @@ footer a {
         display: inline-block;
         border-top: none;
         border-right: 2px solid #303030;
+        font-size: 1.25em;
+    }
+
+    nav img {
+        display: block;
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
     }
 
 
@@ -259,6 +378,23 @@ footer a {
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
         box-shadow: 10px 10px 5px #303030;
+    }
+    
+    legend{
+        max-width: 40%;
+    }
+
+    label {
+        padding-top: 2%;
+    }
+
+    video {
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
     
 
@@ -272,7 +408,9 @@ footer a {
 
 
     header {
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
 
@@ -287,11 +425,16 @@ footer a {
 
     nav img {
         float: left;
-        width: 7%;
+        width: 5%;
         position: relative;
-        top: -20px;
+        top: -5px;
         right: -30px;
+        opacity: .5;
         
+    }
+
+    nav img:hover {
+        opacity: 1;
     }
     
 
@@ -314,6 +457,102 @@ footer a {
         font-size: 20px;
         padding: 15px;
     }
+
+    legend {
+        max-width: 25%;
+    }
+
+    legend {
+        max-width: 60%;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px solid rgb(31, 22, 8);
+    }
+    
+    label {
+        display: inline-block;
+        padding: 1px;
+
+        
+    }
+
+    
+    /*Form styling for desktop */
+    form {
+        width: auto;
+        box-shadow: 0 0 10px #303030;
+        background-color:#5e5037
+    }
+    
+    form img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    
+    
+    /*Table styling for desktop */
+    caption {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 2px;
+        width: 90%;
+    
+    }
+    
+    th, td {
+        border: 1px solid black;
+        padding: 2%;
+    
+    }
+    
+    th {
+        background-color: #303030;
+    }
+    
+    
+    tr:nth-child(odd) {
+        background-color: #525252;
+    }
+    
+    table th {
+        font-weight: bold;
+        font-size: 20px;
+    
+        
+    }
+
+    tr:hover {
+        background-color: #5e5037;
+        color: #ce711aaf;
+    }
+
+    video {
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
 
     
 

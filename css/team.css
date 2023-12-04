@@ -35,13 +35,16 @@ nav {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     margin-bottom: 1%;
+    float: right;
+    width: 100%;
+    box-shadow: 0 0 10px #303030;
 }
 
 
 nav li a:hover {
     color: #000000;
     background-color: #ce711aaf;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 #logo img {
@@ -66,7 +69,7 @@ nav li {
 
     margin: 0 auto;
     padding: 5px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-top: 2px solid #303030;
     
@@ -85,6 +88,13 @@ nav li a {
     text-decoration: none;
 
 
+}
+
+nav img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
 }
 
 /*Show mobile class, hide tablet-desktop class */
@@ -113,9 +123,13 @@ article {
     padding: 3%;
 }
 
-article h4 {
+article p, article ul {
     text-align: center;
+
+    font-size: 24px;
+
 }
+
 
 article img {
     margin: 0 auto;
@@ -239,6 +253,17 @@ footer a {
     text-decoration: none;
 }
 
+figcaption {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+    text-align: center;
+}
+
 
 /* media query for tablet viewport */
 @media screen and (min-width:630px), print {
@@ -255,6 +280,13 @@ footer a {
         display: inline-block;
         border-top: none;
         border-right: 2px solid #303030;
+    }
+
+    nav img {
+        display: block;
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
     }
 
     .grid {
@@ -296,6 +328,20 @@ footer a {
         display: inline-block;
     }
 
+    nav img {
+        float: left;
+        width: 5%;
+        position: relative;
+        top: -5px;
+        right: -30px;
+        opacity: .5;
+        
+    }
+
+    nav img:hover {
+        opacity: 1;
+    }
+
     #story h1  {
         text-align: center;
         text-decoration: underline #303030;
@@ -304,7 +350,8 @@ footer a {
     article h4 {
         text-align: center;
         font-size: 30px;
-
+        background-color: #525252;
+        border-radius: 25px;
     }
 
 

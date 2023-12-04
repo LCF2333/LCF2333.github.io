@@ -23,6 +23,7 @@
         </header>
 
         <nav>
+            <a href="index.html"> <img src="images/Coffee_logo.png" alt="coffee cup logo"></a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -32,18 +33,49 @@
                 <li><a href="media.html">Media</a></li>
                 <li><a href="faqs.html">FAQs</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="">Reports</a>
-
             </ul>
         </nav>
 
         <main>
 
+            <div id="form">
+                
+                <form>
+                    
+                    <img src="images/dancing_coffee_bean.gif" alt="dancing bean">
+                    
+                    <fieldset>
+                        <legend>We value your feedback:</legend>
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="birthdate">Birthdate:</label>
+                        <input type="date" id="birthdate" name="birthdate">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Please select how you found us:</legend>
+                        <input type="radio" id="Friend/family" name="found_us" value="Friend">
+                        <label for="friend">Friend</label>
+                        <input type="radio" id="Ads" name="found_us" value="Ads">
+                        <label for="friend">Ads</label>
+                        <input type="radio" id="Your_own" name="found_us" value="yourown">
+                        <label for="friend">Your Own</label>
+                        <input type="radio" id="Other" name="found_us" value="Other">
+                        <label for="friend">Other</label>
 
 
+                        <legend>If you would like, please leave a review!</legend>
+                        <textarea id="brewed_review" name="review" rows="5" cols="50"></textarea>
 
-            <div id="">
-                <p>CONTACT</p>
+                        <button type="button" value="Submit">Submit</button>
+
+                    </fieldset>
+                </form>
+
             </div>
 
         </main>
