@@ -1,0 +1,559 @@
+/*
+Author: Desmond Timperley
+styles.css
+*/
+
+/* CSS Reset*/
+body, header, nav, main, footer, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #666666;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*style rules for boxing sizing */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*style rules for mobile viewport */
+
+nav {
+    background-color: #5e5037 ;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 1%;
+    float: right;
+    width: 100%;
+    box-shadow: 0 0 10px #303030;
+}
+
+
+nav li a:hover {
+    color: #000000;
+    background-color: #ce711aaf;
+    border-radius: 10px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding-left: 0%;
+}
+
+nav li {
+
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.50em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 2px solid #303030;
+    
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #303030;
+    padding-right: .2em;
+    padding-left: .2em;
+    padding-top: .5em;
+    text-decoration: none;
+
+
+}
+
+nav img {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+form button {
+    color: #5e5037;
+}
+
+p {
+    text-align: center;
+}
+
+/*Show mobile class, hide tablet-desktop class */
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+header {
+    display: none;
+}
+
+
+main {
+    padding: 4%;
+    display: block;
+    font-family: 'Tilt Neon', sans-serif;
+    border-radius: 25px;
+}
+
+.action {
+    font-weight: bold;
+
+}
+
+#about {
+    clear: left;
+    padding: 2% 2%;
+    font-size: 20px;
+    background-color: #525252;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px;
+}
+
+#about h1 {
+    text-align: center;
+}
+
+#steam {
+    box-shadow: 5px 5px 10px;
+    border-radius: 25px;
+}
+
+#special {
+    display: block;
+    text-decoration: none;
+}
+
+
+#special ul {
+    font-size: 20px;
+    background-color: #525252;
+    border-radius: 25px;
+    padding-bottom: 5em;
+}
+
+#special img {
+    width: 125px;
+    display: inline;
+    padding-top: .75em;
+    padding-bottom: .75em;
+}
+
+#sale h1 {
+    text-align: center;
+}
+
+#special h6 {
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+#sale {
+    text-align: center;
+}
+
+#sale h1 {
+    text-align: center;
+    font-size: 35px;
+    background-color: #525252;
+    border-radius: 25px;
+}
+
+#sale h2 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #525252;
+    border-radius: 25px;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+#sale p {
+    font-size: 20px;
+}
+
+#sale ul {
+    display: inline-block;
+    text-align: left;   
+    font-size: 20px;
+
+}
+
+#sale img {
+    border-radius: 20%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+footer {
+    text-align: center;
+    font-size: .85em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer a {
+    color:blue;
+    text-decoration: none;
+}
+
+.frame {
+    position: relative;
+    max-width: 300px;
+    margin: 4% auto;
+}
+
+.picture-text {
+    position: absolute;
+    bottom: 0;
+    background: #303030;
+    color: #5e5037;
+    width: 100%;
+    font-weight: bold;
+}
+
+legend {
+    max-width: 60%;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px solid rgb(31, 22, 8);
+}
+
+label {
+    display: block;
+    padding-top: 4%;
+}
+
+
+
+input {
+    margin-left: 1px;
+    margin-top: 0.75px;
+    
+
+}
+
+
+form {
+    box-shadow: 0 0 10px #303030;
+    background-color:#5e5037;
+    margin: 0 auto;
+    
+}
+
+form img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 20%;
+    
+}
+
+caption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 2px;
+    width: 90%;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2%;
+
+}
+
+th {
+    background-color: #303030;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #525252;
+}
+
+table th {
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+
+video {
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#media_link {
+    text-align: center;
+}
+
+
+
+
+/* media query for tablet viewport */
+@media screen and (min-width:630px), print {
+    
+    .tablet-desktop {
+        display: block;
+    }
+    
+    .mobile {
+        display: none;
+    }
+
+    nav li {
+        display: inline-block;
+        border-top: none;
+        border-right: 2px solid #303030;
+        font-size: 1.25em;
+    }
+
+    nav img {
+        display: block;
+        width: 10%;
+        height: 10%;
+        margin: 0 auto;
+    }
+
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        box-shadow: 10px 10px 5px #303030;
+    }
+    
+    legend{
+        max-width: 40%;
+    }
+
+    label {
+        padding-top: 2%;
+    }
+
+    video {
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+
+
+}
+
+
+
+/* media query for desktop viewport */
+@media screen and (min-width:1015px), print {
+
+
+    header {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .tablet-desktop {
+        display: block;
+
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav img {
+        float: left;
+        width: 5%;
+        position: relative;
+        top: -5px;
+        right: -30px;
+        opacity: .5;
+        
+    }
+
+    nav img:hover {
+        opacity: 1;
+    }
+    
+
+    #steam img {
+        border-radius: 15px;
+
+    }
+
+    .frame {
+        opacity: .8;
+
+    }
+
+    .frame:hover {
+        opacity: 1;
+        box-shadow: 10px 10px 5px #303030;
+    }
+
+    .picture-text {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    legend {
+        max-width: 25%;
+    }
+
+    legend {
+        max-width: 60%;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    
+    fieldset {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+        padding-top: 0.35em;
+        padding-bottom: 0.625em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        border: 2px solid rgb(31, 22, 8);
+    }
+    
+    label {
+        display: inline-block;
+        padding: 1px;
+
+        
+    }
+
+    
+    /*Form styling for desktop */
+    form {
+        width: auto;
+        box-shadow: 0 0 10px #303030;
+        background-color:#5e5037
+    }
+    
+    form img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+    }
+    
+    
+    /*Table styling for desktop */
+    caption {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 2px;
+        width: 90%;
+    
+    }
+    
+    th, td {
+        border: 1px solid black;
+        padding: 2%;
+    
+    }
+    
+    th {
+        background-color: #303030;
+    }
+    
+    
+    tr:nth-child(odd) {
+        background-color: #525252;
+    }
+    
+    table th {
+        font-weight: bold;
+        font-size: 20px;
+    
+        
+    }
+
+    tr:hover {
+        background-color: #5e5037;
+        color: #ce711aaf;
+    }
+
+    video {
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+
+    
+
+}
