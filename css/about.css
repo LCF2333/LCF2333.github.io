@@ -129,6 +129,10 @@ main {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 #special {
     display: block;
     text-decoration: none;

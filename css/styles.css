@@ -81,6 +81,10 @@ nav li a {
 
 }
 
+.last-tab {
+    border: none;
+}
+
 nav img {
     display: block;
     width: 25%;
@@ -92,9 +96,6 @@ form {
     padding-bottom: 40px;
 }
 
-form button {
-    color: #5e5037;
-}
 
 p {
     text-align: center;
@@ -137,6 +138,20 @@ main {
 }
 
 #about h1 {
+    text-align: center;
+}
+
+section img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
     text-align: center;
 }
 
@@ -250,6 +265,7 @@ legend {
     max-width: 60%;
     font-weight: bold;
     margin-top: 30px;
+    text-align: center;
 }
 
 fieldset {
@@ -266,16 +282,12 @@ fieldset {
 label {
     display: block;
     padding-top: 4%;
+    font-size: 20px;
+    font-weight: bold;
+
+
 }
 
-
-
-input {
-    margin-left: 1px;
-    margin-top: 0.75px;
-    
-
-}
 
 
 form {
@@ -293,6 +305,20 @@ form img {
     width: 20%;
     
 }
+
+textarea {
+    width: 75%;
+}
+
+button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #303030;
+    color: #c7bfbf;
+}
+
 
 caption {
     font-size: 30px;
@@ -379,6 +405,15 @@ video {
         grid-gap: 20px;
         box-shadow: 10px 10px 5px #303030;
     }
+
+    textarea {
+        width: 50%;
+    }
+
+
+
+
+    
     
     legend{
         max-width: 40%;
@@ -453,6 +488,10 @@ video {
         box-shadow: 10px 10px 5px #303030;
     }
 
+    figcaption:hover {
+        color: #af8743;
+    }
+
     .picture-text {
         font-size: 20px;
         padding: 15px;
@@ -500,6 +539,16 @@ video {
         margin-right: auto;
         width: 10%;
     }
+
+    textarea {
+        width: 25%;
+    }
+
+    button:hover {
+        background-color: #525252;
+
+    }
+
     
     
     /*Table styling for desktop */

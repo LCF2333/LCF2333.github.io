@@ -227,8 +227,14 @@ article img {
 
 #story h1  {
     text-align: center;
-    text-decoration: underline #303030;
 } 
+
+article h4 {
+    text-align: center;
+    font-size: 30px;
+    background-color: #525252;
+    border-radius: 25px;
+}
 
 
 
@@ -259,6 +265,12 @@ figcaption {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+section img {
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #303030;
+}
+
 
 section h2 {
     text-align: center;
@@ -294,16 +306,40 @@ section h2 {
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
         box-shadow: 10px 10px 5px #303030;
+
     }
+
+
+
+
 
     #story h1  {
         text-align: center;
-        text-decoration: underline #303030;
+ 
+    }
+
+    article h4 {
+        text-align: center;
+        font-size: 30px;
+        background-color: #525252;
+        border-radius: 25px;
+    }
+
+
+    article:nth-child(odd) {
+        clear: left;
+        padding: 2% 2%;
+        font-size: 20px;
+        background-color: #525252;
+        border-radius: 25px;
+
     }
 
     article img {
         border-radius: 15px;
         box-shadow: 10px 10px 5px #303030;
+        width: 100%;
+        
     }
 
 
@@ -344,7 +380,7 @@ section h2 {
 
     #story h1  {
         text-align: center;
-        text-decoration: underline #303030;
+
     }
 
     article h4 {
