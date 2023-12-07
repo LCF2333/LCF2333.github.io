@@ -331,6 +331,7 @@ caption {
     font-weight: bold;
 }
 
+/*Style for table */
 table {
     border-collapse: collapse;
     margin-left: auto;
@@ -338,7 +339,15 @@ table {
     border-spacing: 2px;
     width: 90%;
 
+
 }
+
+td {
+    max-width: 150px;
+    max-height: 150px;
+    overflow: hidden;
+}
+
 
 th, td {
     border: 1px solid black;
@@ -357,11 +366,12 @@ tr:nth-child(odd) {
 
 table th {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 14px;
 
     
 }
 
+/*styling for video */
 video {
     border: 5px solid black;
     box-shadow: 5px 5px 10px;
@@ -375,6 +385,8 @@ video {
     text-align: center;
 }
 
+
+/*styling for FAQ page, and map */
 #questions ol {
     display: table;
     margin: 0 auto;
@@ -450,11 +462,48 @@ iframe {
         width: 50%;
     }
 
+    caption {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 2px;
+        width: 90%;
+    
+    }
 
-
-
+    td {
+        max-width: 150px;
+        max-height: 150px;
+        overflow: hidden;
+    }
+    
+    th, td {
+        border: 1px solid black;
+        padding: 2%;
+    
+    }
+    
+    th {
+        background-color: #303030;
+    }
     
     
+    tr:nth-child(odd) {
+        background-color: #525252;
+    }
+    
+    table th {
+        font-weight: bold;
+        font-size: 20px;
+    
+        
+    }
+
     legend{
         max-width: 40%;
     }
