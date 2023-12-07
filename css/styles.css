@@ -4,7 +4,7 @@ styles.css
 */
 
 /* CSS Reset*/
-body, header, nav, main, footer, img {
+body, header, nav, main, footer, img, form, section, label, fieldset, button, caption, table, section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -413,12 +413,13 @@ video {
 }
 
 iframe {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5em;
-    border-radius: 15px;
     padding-bottom: 10em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -519,6 +520,15 @@ iframe {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+    }
+
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5em;
+        padding-bottom: 10em;
+        width: 90%;
     }
     
 
